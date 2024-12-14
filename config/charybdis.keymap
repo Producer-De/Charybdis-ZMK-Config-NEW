@@ -46,7 +46,7 @@
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <28 31>;
+            key-positions = <31 40>;
         };
 
         colon {
@@ -56,17 +56,17 @@
 
         plus {
             bindings = <&kp PLUS>;
-            key-positions = <28 32>;
+            key-positions = <32 40>;
         };
 
         singlequote {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <28 19>;
+            key-positions = <19 40>;
         };
 
         doublequote {
             bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <28 20>;
+            key-positions = <20 40>;
         };
     };
 
