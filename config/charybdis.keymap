@@ -38,6 +38,36 @@
             bindings = <&kp SLASH>;
             key-positions = <28 47>;
         };
+
+        underbar {
+            bindings = <&kp UNDER>;
+            key-positions = <43 28>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <28 31>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <28 35>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <28 32>;
+        };
+
+        singlequote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <28 19>;
+        };
+
+        doublequote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <28 20>;
+        };
     };
 
     keymap {
