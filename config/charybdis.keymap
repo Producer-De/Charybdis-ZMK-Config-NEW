@@ -142,12 +142,12 @@
 
         layer_7 {
             bindings = <
-&mt LEFT_ALT ESCAPE         &kp N1  &kp N2  &kp N3           &kp N4                  &kp N5       &kp N6                        &kp N7                      &kp N8                 &kp N9    &kp N0                     &mt LS(LA(LEFT_WIN)) PERIOD
-&mt LS(LCTRL) LA(TAB)       &kp Q   &kp W   &kp E            &kp R                   &kp T        &kp Y                         &kp U                       &kp I                  &kp O     &kp P                      &mt LA(LEFT_WIN) MINUS
-&mt LEFT_CONTROL RIGHT_ALT  &kp A   &kp S   &kp D            &kp F                   &kp G        &kp H                         &kp J                       &kp K                  &kp L     &mt LC(LEFT_WIN) UP_ARROW  &mt LS(LC(LEFT_WIN)) BACKSPACE
-&mt LEFT_SHIFT DELETE       &kp Z   &kp X   &kp C            &kp V                   &kp B        &kp N                         &kp M                       &mt LS(LEFT_ALT) PLUS  &kp LEFT  &mt LS(LC(LEFT_ALT)) DOWN  &mt LS(LEFT_WIN) RIGHT
-                                            &lt 0 BACKSPACE  &mkp LCLK               &mkp RCLK    &mt LEFT_WIN ENTER            &mt LC(LA(LEFT_WIN)) SPACE
-                                                             &mt LC(LEFT_ALT) ENTER  &kp SPACE    &mt LS(LC(LA(LEFT_WIN))) TAB
+&kp ESCAPE                  &kp N1   &kp N2  &kp N3         &kp N4     &kp N5       &kp N6     &kp N7     &kp N8     &kp N9          &kp N0        &kp LEFT_WIN
+&mt LEFT_ALT LA(TAB)        &kp Q    &kp W   &kp E          &kp R      &kp T        &kp Y      &kp U      &kp I      &kp O           &kp P         &kp TAB
+&mt LEFT_CONTROL RIGHT_ALT  &kp A    &kp S   &kp D          &kp F      &kp G        &kp H      &kp J      &kp K      &kp L           &kp UP_ARROW  &mt RIGHT_CONTROL BACKSPACE
+&mt LEFT_SHIFT DELETE       &lt 3 Z  &kp X   &kp C          &kp V      &kp B        &kp N      &kp M      &kp COMMA  &kp LEFT_ARROW  &kp DOWN      &mt LEFT_SHIFT RIGHT
+                                             &kp BACKSPACE  &mkp LCLK  &mkp RCLK    &mkp MCLK  &kp SPACE
+                                                            &kp ENTER  &kp SPACE    &kp ENTER
             >;
         };
     };
